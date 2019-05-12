@@ -1,0 +1,57 @@
+.table-default{
+	width: 100%;
+	margin: 3% auto;
+	border-collapse: collapse;
+}
+.table-default tr th{
+	padding: 1.5% 0;
+	border: 1px solid #828A90;
+}
+.table-default tr td{
+	padding: 1%;
+	border: 1px solid #828A90;
+}
+
+
+.table-plain{
+	width: 100%;
+	margin: 3% auto;
+	border-collapse: collapse;
+}
+.table-plain tr th{
+	padding: 1.5% 0;
+}
+.table-plain tr td{
+	padding: 1%;
+}
+
+
+.table-horizontal{
+	width: 100%;
+	margin: 3% auto;
+	border-collapse: collapse;
+}
+.table-horizontal tr{
+	padding: 1.5% 0;
+	border-bottom: 1px solid #828A90;
+}
+.table-horizontal tr th, .table-horizontal tr td{
+	padding: 1.5% 0;
+}
+
+
+.table-hover tr:hover{
+	background-color: #f1f1f1;
+}
+
+
+.table-striped tr:nth-child(even){
+	background-color: #f1f1f1;
+}
+
+
+.table-responsive{
+	width: 100%;
+	margin: 3% auto;
+	overflow-x: auto;
+}

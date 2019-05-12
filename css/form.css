@@ -1,0 +1,110 @@
+/*.form-block*/
+.form-block{
+	width: 100%;
+	margin: auto;
+	display: block;
+}
+.form-block .form-group{
+	width: 100%;
+	margin: 2% 0;
+	display: block;
+}
+.form-block .form-group .label-block{
+	width: 100%;
+	padding: 1% 2%;
+	text-align: left;
+	float: left;
+}
+.form-block .form-group .form-field{
+	width: 100%;
+	margin: auto;
+	padding: 1% 2%;
+	border: 1.5px solid #CCCCCC;
+	border-radius: 5px;
+}
+.form-block .form-group .radio{
+	width: 95%;
+	margin: 0 0 0 5%;
+	overflow: hidden;
+	padding: 1% 2%;
+}
+.form-block .form-group .radio .inline{
+	margin-left: 5%;
+}
+.form-block .form-group .checkbox{
+	width: 95%;
+	margin: 0 0 0 5%;
+	overflow: hidden;
+	padding: 1% 2%;
+}
+.form-block .form-group .checkbox .inline{
+	margin-left: 5%;
+}
+
+
+/* .form-horizontal */
+.form-horizontal{
+	width: 100%;
+	margin: auto;
+	display: inline-block;
+}
+.form-horizontal .form-group{
+	width: 100%;
+	margin: 2% 0;
+	display: inline-block;
+}
+.form-horizontal .form-group .label-horizontal{
+	width: 20%;
+	padding: 1% 2%;
+	text-align: right;
+	float: left;
+}
+.form-horizontal .form-group .form-field{
+	width: 75%;
+	margin: 0 0 0 5%;
+	padding: 1% 2%;
+	border: 1.5px solid #CCCCCC;
+	border-radius: 5px;
+}
+.form-horizontal .form-group .radio{
+	width: 75%;
+	margin: 0 0 0 5%;
+	padding: 1% 2%;
+	float: right;
+	overflow: hidden;
+}
+.form-horizontal .form-group .checkbox{
+	width: 75%;
+	margin: 0 0 0 5%;
+	padding: 1% 2%;
+	float: right;
+	overflow: hidden;
+}
+.form-horizontal .form-group .checkbox .inline{
+	margin-left: 5%;
+}
+
+
+/* .form-inline */
+.form-inline{
+	width: 100%;
+	margin: auto;
+	display: inline;
+}
+.form-inline .form-group{
+	width: 32.33%;
+	margin: 2% 0;
+	float: left;
+}
+.form-inline .form-group .form-field{
+	margin: 0 0 0 1%;
+	padding: 1% 2%;
+	float: left;
+	border: 1.5px solid #CCCCCC;
+	border-radius: 5px;
+}
+.form-inline .form-group .checkbox{
+	padding: 1% 2%;
+	float: left;
+	overflow: hidden;
+}
